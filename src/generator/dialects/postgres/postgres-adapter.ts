@@ -118,7 +118,7 @@ export class PostgresAdapter extends Adapter {
     lseg: new IdentifierNode('string'),
     macaddr: new IdentifierNode('string'),
     money: new IdentifierNode('string'),
-    numeric: new IdentifierNode('Numeric'),
+    numeric: new IdentifierNode('bigint'), // HACK: to make Minswap devs life easier
     oid: new IdentifierNode('number'), // Specified in 'pg' source code.
     path: new IdentifierNode('string'),
     point: new IdentifierNode('Point'),
