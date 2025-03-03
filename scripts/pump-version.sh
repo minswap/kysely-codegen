@@ -22,5 +22,5 @@ echo "tag version"
 git tag v"$version"
 
 echo "push to remote"
-git push origin main
+git push origin master
 git push origin v"$version"
