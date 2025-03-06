@@ -1,6 +1,6 @@
 {
   "name": "@minswap/kysely-codegen",
-  "version": "0.18.0-minswap",
+  "version": "0.18.0-minswap.1",
   "author": "Robin Blomberg",
   "license": "MIT",
   "main": "./dist/index.js",
