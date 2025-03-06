@@ -110,7 +110,7 @@ export class PostgresAdapter extends Adapter {
     inet: new IdentifierNode('string'),
     int2: new IdentifierNode('number'), // Specified in 'pg' source code.
     int4: new IdentifierNode('number'), // Specified in 'pg' source code.
-    int8: new IdentifierNode('Int8'), // Specified as "bigint" in Adminer.
+    int8: new IdentifierNode('bigint'), // Specified as "bigint" in Adminer. // HACK: to make Minswap devs life easier
     interval: new IdentifierNode('Interval'),
     json: new IdentifierNode('Json'),
     jsonb: new IdentifierNode('Json'),
