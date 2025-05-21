@@ -104,14 +104,14 @@ export class PostgresAdapter extends Adapter {
     bytea: new IdentifierNode('Buffer'),
     cidr: new IdentifierNode('string'),
     circle: new IdentifierNode('Circle'),
-    date: new IdentifierNode('Timestamp'),
+    date: new IdentifierNode('Date'),
     float4: new IdentifierNode('number'), // Specified as "real" in Adminer.
     float8: new IdentifierNode('number'), // Specified as "double precision" in Adminer.
     inet: new IdentifierNode('string'),
     int2: new IdentifierNode('number'), // Specified in 'pg' source code.
     int4: new IdentifierNode('number'), // Specified in 'pg' source code.
     int8: new IdentifierNode('bigint'), // Specified as "bigint" in Adminer. // HACK: to make Minswap devs life easier
-    interval: new IdentifierNode('Interval'),
+    interval: new IdentifierNode('IPostgresInterval'),
     json: new IdentifierNode('Json'),
     jsonb: new IdentifierNode('Json'),
     line: new IdentifierNode('string'),
@@ -125,8 +125,8 @@ export class PostgresAdapter extends Adapter {
     polygon: new IdentifierNode('string'),
     text: new IdentifierNode('string'),
     time: new IdentifierNode('string'),
-    timestamp: new IdentifierNode('Timestamp'),
-    timestamptz: new IdentifierNode('Timestamp'),
+    timestamp: new IdentifierNode('Date'),
+    timestamptz: new IdentifierNode('Date'),
     tsquery: new IdentifierNode('string'),
     tsvector: new IdentifierNode('string'),
     txid_snapshot: new IdentifierNode('string'),

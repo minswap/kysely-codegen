@@ -63,13 +63,8 @@
     "@types/node": "^22.15.17",
     "@types/pg": "^8.15.1",
     "@types/pluralize": "^0.0.33",
-<<<<<<< HEAD
     "better-sqlite3": "^11.10.0",
     "cspell-cli": "^9.0.1",
-=======
-    "@types/tedious": "^18.0.0",
-    "better-sqlite3": "^11.8.1",
->>>>>>> 2f4f903 (publish version v0.18.0-minswap)
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.31.0",
     "execa": "^9.5.3",
@@ -183,7 +178,6 @@
       "tedious"
     ]
   },
-<<<<<<< HEAD
   "madge": {
     "detectiveOptions": {
       "ts": {
@@ -192,8 +186,4 @@
     }
   },
   "prettier": "@robinblomberg/prettier-config"
-=======
-  "prettier": "@robinblomberg/prettier-config",
-  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
->>>>>>> 2f4f903 (publish version v0.18.0-minswap)
 }
